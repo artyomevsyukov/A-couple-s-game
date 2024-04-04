@@ -36,7 +36,7 @@ body {
     align-items: center;
     height: 240px;
     padding: 30px;
-    color: "";
+    color: transparent;
     font-size: 0;
     cursor: pointer;
     border-radius: 8px;
@@ -51,7 +51,27 @@ body {
 }
 
 .open {
-    color: #fff;
+    color: #790d0d;
     font-size: 60px;
     cursor: default;
+    background-color: #d6c848;
+    transition: background-color 0.3s ease-in-out, color 1s ease-in-out;
+}
+.open:hover {
+    background-color: #d6c848;
+}
+.open:active {
+    background-color: #d6c848;
+}
+.success {
+    color: #790d0d;
+    font-size: 60px;
+    cursor: default;
+    background-color: #21df6a;
+}
+.success:hover {
+    background-color: #21df6a;
+}
+.success:active {
+    background-color: #21df6a;
 }
