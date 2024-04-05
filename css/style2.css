@@ -22,62 +22,60 @@ body {
 }
 
 .game {
+    margin: 0 auto;
+    max-width: 1000px;
+    margin-top: 50px;
+    padding: 120px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
-    padding: 40px 15px;
-    max-width: 1000px;
-    margin: 0 auto;
+    gap: 8px;
 }
 
 .card {
     display: flex;
-    align-items: center;
     justify-content: center;
-    height: 240px;
-    padding: 30px;
-    background-color: rgb(226, 187, 137);
-    font-size: 0;
+    align-items: center;
+    height: 250px;
+    /* color: rgb(95, 14, 78); */
     color: transparent;
-    border-radius: 8px;
+    font-size: 0;
     cursor: pointer;
-    transition: background-color .3s;
+
+    background-color: cadetblue;
+    border-radius: 8px;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
 
 .card:hover {
-    background-color: rgb(241, 213, 176);
+    background-color: rgb(134, 175, 177);
 }
-
 .card:active {
-    background-color: rgb(204, 159, 100);
+    background-color: rgb(64, 181, 185);
 }
-
 .open {
-    font-size: 36px;
-    color: white;
-    background-color: rgb(37, 60, 188);
+    color: rgb(95, 14, 78);
+    font-size: 70px;
+    background-color: cadetblue;
     cursor: default;
 }
 
-.open:hover{
-    background-color: rgb(37, 60, 188);
+.open:hover {
+    background-color: cadetblue;
 }
-
-.open:active{
-    background-color: rgb(37, 60, 188);
+.open:active {
+    background-color: cadetblue;
 }
 
 .success {
-    font-size: 36px;
-    color: white;
-    background-color: #009705;
+    color: rgb(95, 14, 78);
+    font-size: 70px;
+    background-color: rgb(20, 189, 43);
     cursor: default;
 }
 
-.success:hover{
-    background-color: #009705;
+.success:hover {
+    background-color: rgb(20, 189, 43);
 }
-
-.success:active{
-    background-color: #009705;
+.success:active {
+    background-color: rgb(20, 189, 43);
 }
