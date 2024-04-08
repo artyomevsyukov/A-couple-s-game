@@ -49,22 +49,6 @@ function startGame(game, cardsCount) {
     // Настройка сетки
     let columns = 2;
 
-    // if (cardsCount === 2) {
-    //     columns = 2;
-    // }
-    // if (cardsCount === 3) {
-    //     columns = 3;
-    // }
-    // if (cardsCount === 4) {
-    //     columns = 4;
-    // }
-    // if (cardsCount === 5) {
-    //     columns = 5;
-    // }
-    // if (cardsCount === 6) {
-    //     columns = 4;
-    // }
-
     switch (cardsCount) {
         case 2:
             columns = 2;
